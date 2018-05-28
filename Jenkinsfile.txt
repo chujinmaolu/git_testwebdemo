@@ -1,3 +1,4 @@
+#!groovy
 Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
@@ -5,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building now..'
             }
         }
         stage('Test') {
